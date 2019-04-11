@@ -1,4 +1,6 @@
+/*Body is known as a selector*/
 body {
+    /*These are known as properties followed by their values*/
     font-family: Helvetica;
     background-color: #eeeeee;
     color: #333333;
