@@ -30,18 +30,19 @@ body {
 .primary-box {
     background: #222222;
     color: #eeeeee;
-    font-size: 24px;
-    /*Top right left*/
-    margin: 0 0 10px;
-    padding: 10px;
 }
 
 .secondary-box {
     background: #eeeeee;
     color: #222222;
-    font-size: 24px;
-    margin: 0 0 10px;
+}
+
+.inside-box {
+    /*20 pixels on the top and bottom and 0 pixels right and left.*/
+    margin: 20px 0;
     padding: 10px;
+    background: #94efff;
+    color: #555555;
 }
 
 /*Descendant Selectors*/
@@ -60,4 +61,18 @@ body {
 
 .secondary-box em {
     color: #fc3fff;
+}
+
+
+/*Grouping Selectors*/
+
+.primary-box, .secondary-box {
+    font-size: 24px;
+    /*Top right left*/
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.inside-box h3, .inside-box p{
+    font-size: 20px;
 }
