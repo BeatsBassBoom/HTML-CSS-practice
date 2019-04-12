@@ -1,0 +1,19 @@
+/*Custom CSS*/
+
+body {
+    background: #4d2d06;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#cool {
+    background: #ffffff;
+    color: #4d2d06;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cooler {
+    background: green;
+    font-family: monospace;
+}
