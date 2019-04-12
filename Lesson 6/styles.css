@@ -1,9 +1,16 @@
 /*Custom CSS*/
 
+/*This is how you select all HTML to be handled by CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #4d2d06;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
+    text-align: center;
     font-size: 50px;
 }
 
@@ -13,7 +20,26 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*This is how you select a div id in CSS*/
 #cooler {
     background: green;
     font-family: monospace;
+}
+
+/*This is how you select a div class in CSS*/
+.primary-box {
+    background: #222222;
+    color: #eeeeee;
+    font-size: 24px;
+    /*Top right left*/
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.secondary-box {
+    background: #eeeeee;
+    color: #222222;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
 }
