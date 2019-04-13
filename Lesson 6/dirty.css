@@ -1,0 +1,58 @@
+/*Custom CSS for get your hands dirty*/
+
+/*Select everything*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Select the body tag*/
+body {
+    background: #eeeeee;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/*Select container id tags*/
+#container {
+    width: 700px;
+}
+
+/*Select header and footer id tag*/
+#header, #footer {
+    background: #333333;
+    color: #ffffff;
+    padding: 30px;
+    margin: 10px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+/*Class selector*/
+.lead {
+    font-size: 18px;
+}
+
+.blog-post {
+    background: #ffffff;
+    padding: 30px;
+    margin: 0 10px 10px;
+}
+
+/*Grouping selector*/
+h1, h2, h3 {
+    color: #ed7000;
+}
+
+/*Group Descendant Selector*/
+.blog-post h2, .blog-post p {
+    margin-bottom: 10px;
+}
+
+.blog-post em {
+    color: #cccccc;
+}
