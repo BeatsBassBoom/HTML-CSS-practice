@@ -73,7 +73,7 @@ a:active {
 }
 
 /*CSS Positioning*/
-
+/*Class selector*/
 .box {
     background: #db4e4e;
     color: white;
@@ -81,7 +81,7 @@ a:active {
     width: 150px;
     margin: 20px 0;
 }
-
+/*ID selector*/
 #relative-box {
     position: relative;
     top: 30px;
